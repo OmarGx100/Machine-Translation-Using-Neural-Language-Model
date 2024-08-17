@@ -43,13 +43,8 @@ This project is a Seq2Seq (Sequence to Sequence) model designed to translate Eng
 1. **Prepare the Data:**
    - Place the bilingual text file (`fra.txt`) in the `./Data/` directory.
 
-2. **Train the Model:**
-   - Run the training script to preprocess the data and train the model.
-     ```bash
-     python train.py
-     ```
 
-3. **Translate Sentences:**
+2. **Translate Sentences:**
    - Use the trained model to translate English sentences into French.
      ```bash
      python translate.py
